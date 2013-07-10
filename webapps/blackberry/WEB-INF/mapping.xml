@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE mapping PUBLIC "-//EXOLAB/Castor Object Mapping DTD Version 1.0//EN" "http://castor.exolab.org/mapping.dtd">
+
+<mapping>
+<description>A mapping file for our Address Book application</description>
+
+<class name="classpath:com.vasconsulting.www.domain.SubscriberState">
+  <field name="msisdn" type="string"/>
+  <field name="subdata" type="string" />
+ 
+</class>
+
+<class name="com.vasconsulting.www.utility.ApplicationXMLContainer">  
+  <field name="subscriberState" type="SubscriberState" collection="collection" />
+</class>
+
+</mapping>

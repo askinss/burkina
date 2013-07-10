@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.vasconsulting.www.domain">
+	<class name="RequestTracker" table="requesttracker">
+		<id name="id" column="id" type="string">
+			<generator class="assigned" />
+		</id>
+		<property name="date_created" type="calendar"  />
+		<property name="msisdn" type="string" length="20" />
+		<property name="shortCode" type="string" length="255" />
+
+	</class>
+</hibernate-mapping>

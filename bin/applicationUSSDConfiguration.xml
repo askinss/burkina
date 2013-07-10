@@ -1,0 +1,292 @@
+<ussd root="mainMenuEnglish" name="consolidate. Consume. Services, 2Cs">
+  
+  <menu id="languageMenu" description="Language Menu" language="english">
+	<option page="english" child="mainMenuEnglish" />
+	<option page="igbo" child="mainMenuIgbo" />
+	<option page="hausa" child="mainMenuHausa" />
+	<option page="yoruba" child="mainMenuYoruba" />
+  </menu>
+  
+  <menu id="mainMenuIgbo" description="Main Menu" language="igbo">
+	<option page="" child=""  />
+  </menu>
+  
+   <menu id="mainMenuHausa" description="Main Menu" language="hausa">
+	<option page="" child=""  />
+  </menu>
+  
+   <menu id="mainMenuYoruba" description="Main Menu" language="yoruba">
+	<option page="" child=""  />
+  </menu>
+  
+  <menu id="mainMenuEnglish" description="Main Menu" language="english">
+	<option page="prepaidblackberry" child="prepaidBlackberryMenu"  />
+	<option page="postpaidblackberry" child="postpaidBlackberryMenu" />
+  </menu>
+  
+	  <menu id="prepaidBlackberryMenu" description="Main Menu" language="english">
+	  	<option page="prepblackberrybis" child="prepblackberrybismenu" />
+	  	<option page="prepblackberrybes" child="prepblackberrybesmenu"  />		
+		<option page="prepblackberrysocial" child="prepblackberrysocialmenu"  />
+		<option page="prepblackberrymessaging" child="prepblackberrymessagemenu" />
+		<option page="prepblackberrycomplete" child="prepblackberrycompletemenu" />
+	  </menu>	  	
+		  	<menu id="prepblackberrybesmenu" description="Prepaid BB BES Main Menu" language="english">
+		  		<option page="prepblackberrybesdaily" child="prepblackberrybesdailymenu"  />
+				<option page="prepblackberrybesweekly" child="prepblackberrybesweeklymenu" />
+				<option page="prepblackberrybesmonthly" child="prepblackberrybesmonthlymenu"  />
+				<option page="prepblackberrybesstatus" child="prepblackberrybesstatusmenu" />
+		  	</menu>	 
+				  	<menu id="prepblackberrybesdailymenu" description="Prepaid BB BES Daily Menu" language="english">
+				  		<option page="prepblackberrybesdailypricing" child="prepblackberrybesdailymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybesdailymenuleaf" description="Prepaid BB BES Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=besdayprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrybesweeklymenu" description="Prepaid BB BES Weekly Menu" language="english">
+				  		<option page="prepblackberrybesweeklypricing" child="prepblackberrybesweeklymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybesweeklymenuleaf" description="Prepaid BB BES Weekly Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=besweekprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrybesmonthlymenu" description="Prepaid BB BES Monthly Menu" language="english">
+				  		<option page="prepblackberrybesmonthlypricing" child="prepblackberrybesmonthlymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybesmonthlymenuleaf" description="Prepaid BB BES Monthly Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=besmonthprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>			  		
+				  	<menu id="prepblackberrybesstatusmenu" description="Prepaid BB BES Status Menu" language="english">
+				  		<option page="" child="" ref="http://172.16.1.26:8017/blackberry?msisdn" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  	</menu>	
+		  	<menu id="prepblackberrybismenu" description="Prepaid BB BIS Main Menu" language="english">
+		  		<option page="prepblackberrybisdaily" child="prepblackberrybisdailymenu"  />
+				<option page="prepblackberrybisweekly" child="prepblackberrybisweeklymenu" />
+				<option page="prepblackberrybismonthly" child="prepblackberrybismonthlymenu"  />
+				<option page="prepblackberrybisstatus" child="prepblackberrybisstatusmenu" />
+		  	</menu>	 
+				  	<menu id="prepblackberrybisdailymenu" description="Prepaid BB BIS Daily Menu" language="english">
+				  		<option page="prepblackberrybisdailypricing" child="prepblackberrybisdailymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybisdailymenuleaf" description="Prepaid BB BIS Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=bisday" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrybisweeklymenu" description="Prepaid BB BIS Weekly Menu" language="english">
+				  		<option page="prepblackberrybisweeklypricing" child="prepblackberrybisweeklymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybisweeklymenuleaf" description="Prepaid BB BIS Weekly Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=bisweekprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrybismonthlymenu" description="Prepaid BB BIS Monthly Menu" language="english">
+				  		<option page="prepblackberrybismonthlypricing" child="prepblackberrybismonthlymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybismonthlymenuleaf" description="Prepaid BB BIS Monthly Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=bismonthprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrybisstatusmenu" description="Prepaid BB BIS Status Menu" language="english">
+				  		<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=status" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  	</menu>	
+		  	<menu id="prepblackberrysocialmenu" description="Prepaid BB Social Main Menu" language="english">
+		  		<option page="prepblackberrysocialdaily" child="prepblackberrysocialdailymenu"  />
+				<option page="prepblackberrysocialweekly" child="prepblackberrysocialweeklymenu" />
+				<option page="prepblackberrysocialmonthly" child="prepblackberrysocialmonthlymenu"  />
+				<option page="prepblackberrysocialstatus" child="prepblackberrysocialstatusmenu" />
+		  	</menu>	
+				  	<menu id="prepblackberrysocialdailymenu" description="Prepaid BB SOCIAL Daily Menu" language="english">
+				  		<option page="prepblackberrysocialdailypricing" child="prepblackberrysocialdailymenuleaf"  />
+				  	</menu>
+						<menu id="prepblackberrysocialdailymenuleaf" description="Prepaid BB BIS Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=socialdayprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrysocialweeklymenu" description="Prepaid BB SOCIAL Weekly Menu" language="english">
+				  		<option page="prepblackberrysocialweeklypricing" child="prepblackberrysocialweeklymenuleaf"  />
+				  	</menu>
+						<menu id="prepblackberrysocialweeklymenuleaf" description="Prepaid BB BIS Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=socialweekprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrysocialmonthlymenu" description="Prepaid BB SOCIAL Monthly Menu" language="english">
+				  		<option page="prepblackberrysocialmonthlypricing" child="prepblackberrysocialmonthlymenuleaf"  />
+				  	</menu>
+						<menu id="prepblackberrysocialmonthlymenuleaf" description="Prepaid BB BIS Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=socialmonthprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrysocialstatusmenu" description="Prepaid BB SOCIAL Status Menu" language="english">
+				  		<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=status" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  	</menu>
+				  		
+		  	<menu id="prepblackberrymessagemenu" description="Prepaid BB Messaging Main Menu" language="english">
+		  		<option page="prepblackberrymessagedaily" child="prepblackberrymessagedailymenu"  />
+				<option page="prepblackberrymessageweekly" child="prepblackberrymessageweeklymenu" />
+				<option page="prepblackberrymessagemonthly" child="prepblackberrymessagemonthlymenu"  />
+				<option page="prepblackberrymessagestatus" child="prepblackberrymessagestatusmenu" />
+		  	</menu>	
+				  	<menu id="prepblackberrymessagedailymenu" description="Prepaid BB MESSAGING Daily Menu" language="english">
+				  		<option page="prepblackberrymessagedailypricing" child="prepblackberrymessagedailymenuleaf"  />
+				  	</menu>
+						<menu id="prepblackberrymessagedailymenuleaf" description="Prepaid BB BIS Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=messagedayprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrymessageweeklymenu" description="Prepaid BB MESSAGING Weekly Menu" language="english">
+				  		<option page="prepblackberrymessageweeklypricing" child="prepblackberrymessageweeklymenuleaf"  />
+				  	</menu>
+						<menu id="prepblackberrymessageweeklymenuleaf" description="Prepaid BB BIS Weekly Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=messageweekprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrymessagemonthlymenu" description="Prepaid BB MESSAGING Monthly Menu" language="english">
+				  		<option page="prepblackberrymessagemonthlypricing" child="prepblackberrymessagemonthlymenuleaf"  />
+				  	</menu>
+						<menu id="prepblackberrymessagemonthlymenuleaf" description="Prepaid BB BIS Monthly Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=messagemonthprep" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  		</menu>
+				  	<menu id="prepblackberrymessagestatusmenu" description="Prepaid BB MESSAGING Status Menu" language="english">
+				  		<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=status" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+				  	</menu>	
+				  	
+	<menu id="prepblackberrycompletemenu" description="Prepaid BB Complete Main Menu" language="english">
+		  		<option page="prepblackberrycompletedaily" child="prepblackberrycompletedailymenu"  />
+				<option page="prepblackberrycompleteweekly" child="prepblackberrycompleteweeklymenu" />
+				<option page="prepblackberrycompletemonthly" child="prepblackberrycompletemonthlymenu"  />
+				<option page="prepblackberrycompletestatus" child="prepblackberrycompletestatusmenu" />
+		  	</menu>	 
+				  	<menu id="prepblackberrycompletedailymenu" description="Prepaid BB Complete Daily Menu" language="english">
+				  		<option page="prepblackberrybesdailypricing" child="prepblackberrybesdailymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybesdailymenuleaf" description="Prepaid BB Complete Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry" timeout="10" autoresponse="Thank you"  />
+				  		</menu>
+				  	<menu id="prepblackberrycompleteweeklymenu" description="Prepaid BB Complete Weekly Menu" language="english">
+				  		<option page="prepblackberrybesweeklypricing" child="prepblackberrybesweeklymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybesweeklymenuleaf" description="Prepaid BB BES Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.36:8017/blackberry" timeout="10" autoresponse="Thank you"  />
+				  		</menu>
+				  	<menu id="prepblackberrycompletemonthlymenu" description="Prepaid BB Complete Monthly Menu" language="english">
+				  		<option page="prepblackberrybesmonthlypricing" child="prepblackberrybesmonthlymenuleaf"  />
+				  	</menu>
+				  		<menu id="prepblackberrybesmonthlymenuleaf" description="Prepaid BB Complete Daily Menu" language="english">
+				  			<option page="" child="" ref="http://172.16.1.26:8017/blackberry" timeout="10" autoresponse="Thank you"  />
+				  		</menu>			  		
+				  	<menu id="prepblackberrycompletestatusmenu" description="Prepaid BB Complete Status Menu" language="english">
+				  		<option page="" child="" ref="http://172.16.1.26:8017/blackberry" timeout="10" autoresponse="Thank you"  />
+				  	</menu>		
+  
+	  <menu id="postpaidBlackberryMenu_old" description="Main Menu" language="english">
+	  	 <option page="postblackberrybes" child="postblackberrybesmenu"  />
+	   	 <option page="postblackberrybis" child="postblackberrybismenu" />
+		 <option page="postblackberrysocial" child="postblackberrysocialmenu"  />
+		 <option page="postblackberrymessaging" child="postblackberrymessagemenu" />
+	  </menu>
+	  
+	  <menu id="postpaidBlackberryMenu" description="Main Menu" language="english">
+	  	 <option page="postblackberrybesstatus_new" child="postblackberrybesstatusmenu"  />	   	 
+	  </menu>
+			<menu id="postblackberrybesstatusmenu" description="Prepaid BB Complete Status Menu" language="english">
+				<option page="" child="" ref="http://172.16.1.36:8017/blackberry/smsservice?msisdn=%1$s%26msg=status" timeout="10" autoresponse="Dear subscriber, your request is currently being processed. You will be notified once completed."  />
+			</menu>
+			
+		  	<menu id="postblackberrybesmenu" description="Postpaid BB BES Main Menu" language="english">
+		  		<option page="postblackberrybesdaily" child=""  />
+				<option page="postblackberrybesweekly" child="" />
+				<option page="postblackberrybesmonthly" child=""  />
+				<option page="postblackberrybesstatus" child="" />
+		  	</menu>	  	
+		  	<menu id="postblackberrybismenu" description="Postpaid BB BIS Main Menu" language="english">
+		  		<option page="postblackberrybisdaily" child=""  />
+				<option page="postblackberrybisweekly" child="" />
+				<option page="postblackberrybismonthly" child=""  />
+				<option page="postblackberrybisstatus" child="" />
+		  	</menu>
+		  	<menu id="postblackberrysocialmenu" description="Postpaid BB Social Main Menu" language="english">
+		  		<option page="postblackberrysocialdaily" child=""  />
+				<option page="postblackberrysocialweekly" child="" />
+				<option page="postblackberrysocialmonthly" child=""  />
+				<option page="postblackberrysocialstatus" child="" />
+		  	</menu>
+		  	<menu id="postblackberrymessagemenu" description="Postpaid BB Messaging Main Menu" language="english">
+		  		<option page="postblackberrymessagedaily" child=""  />
+				<option page="postblackberrymessageweekly" child="" />
+				<option page="postblackberrymessagemonthly" child=""  />
+				<option page="postblackberrymessagestatus" child="" />
+		  	</menu>
+  
+  <page id="english" description="English Option menu" text="1. English Language" language="english" />  
+  <page id="igbo" description="Igbo Option menu" text="2. Igbo Language" language="english" /> 
+  <page id="hausa" description="Hausa Option menu" text="3. Hausa Language" language="english" /> 
+  <page id="yoruba" description="Yoruba Option menu" text="4. Yoruba Language" language="english" /> 
+  
+  <page id="prepaidblackberry" description="Prepaid Blackberry" text="1. Prepaid Blackberry" language="english" />  
+  <page id="postpaidblackberry" description="Postpaid Blackberry" text="2. Postpaid Blackberry" language="english" />
+  
+  <page id="prepblackberrybes" description="BES Blackberry" text="1. BES" language="english" />  
+  <page id="prepblackberrybis" description="BIS Blackberry" text="2. BIS" language="english" />  
+  <page id="prepblackberrysocial" description="Social Blackberry" text="3. BB Social" language="english" />  
+  <page id="prepblackberrymessaging" description="Message Blackberry" text="4. BB Messaging" language="english" />
+  <page id="prepblackberrycomplete" description="BIS Complete Blackberry" text="5. BIS Complete" language="english" />
+  
+  <page id="postblackberrybes" description="BES Blackberry" text="1. BES Blackberry" language="english" />  
+  <page id="postblackberrybis" description="BIS Blackberry" text="2. BIS Blackberry" language="english" />  
+  <page id="postblackberrysocial" description="Social Blackberry" text="3. Social Blackberry" language="english" />  
+  <page id="postblackberrymessaging" description="Message Blackberry" text="4. Messaging Blackberry" language="english" />
+  
+  <page id="prepblackberrybesdaily" description="Prep BES Blackberry daily" text="1. BES Daily" language="english" />
+  <page id="prepblackberrybesweekly" description="Prep BES Blackberry weekly" text="2. BES Weekly" language="english" />
+  <page id="prepblackberrybesmonthly" description="Prep BES Blackberry Monthly" text="3. BES Monthly" language="english" />
+  <page id="prepblackberrybesstatus" description="Prep BES Blackberry status" text="4. BES Status" language="english" />
+  
+  <page id="prepblackberrybisdaily" description="Prep BIS Blackberry daily" text="1. BIS Daily" language="english" />
+  <page id="prepblackberrybisweekly" description="Prep BIS Blackberry weekly" text="2. BIS Weekly" language="english" />
+  <page id="prepblackberrybismonthly" description="Prep BIS Blackberry Monthly" text="3. BIS Monthly" language="english" />
+  <page id="prepblackberrybisstatus" description="Prep BIS Blackberry status" text="4. BIS Status" language="english" />
+  
+  <page id="prepblackberrysocialdaily" description="Prep Social Blackberry daily" text="1. Social Daily" language="english" />
+  <page id="prepblackberrysocialweekly" description="Prep Social Blackberry weekly" text="2. Social Weekly" language="english" />
+  <page id="prepblackberrysocialmonthly" description="Prep Social Blackberry Monthly" text="3. Social Monthly" language="english" />
+  <page id="prepblackberrysocialstatus" description="Prep Social Blackberry status" text="4. Social Status" language="english" />
+  
+  <page id="prepblackberrymessagedaily" description="Prep Messaging Blackberry daily" text="1. Messaging BB Daily" language="english" />
+  <page id="prepblackberrymessageweekly" description="Prep Messaging Blackberry weekly" text="2. Messaging BB Weekly" language="english" />
+  <page id="prepblackberrymessagemonthly" description="Prep Messaging Blackberry Monthly" text="3. Messaging BB Monthly" language="english" />
+  <page id="prepblackberrymessagestatus" description="Prep Messaging Blackberry status" text="4. Messaging BB Status" language="english" />
+  
+  <page id="postblackberrybesdaily" description="Post_P BES Blackberry daily" text="1. Postpaid BES Blackberry Daily" language="english" />
+  <page id="postblackberrybesweekly" description="Post_P BES Blackberry weekly" text="2. Postpaid BES Blackberry Weekly" language="english" />
+  <page id="postblackberrybesmonthly" description="Post_P BES Blackberry Monthly" text="3. Postpaid BES Blackberry Monthly" language="english" />
+  <page id="postblackberrybesstatus" description="Post_P BES Blackberry status" text="4. Postpaid BES Blackberry Status" language="english" />
+  
+  <page id="postblackberrybesstatus_new" description="Post_P BES Blackberry status" text="1. Postpaid Blackberry Status" language="english" />
+  
+  <page id="postblackberrybisdaily" description="Post_P BIS Blackberry daily" text="1. Postpaid BIS Blackberry Daily" language="english" />
+  <page id="postblackberrybisweekly" description="Post_P BIS Blackberry weekly" text="2. Postpaid BIS Blackberry Weekly" language="english" />
+  <page id="postblackberrybismonthly" description="Post_P BIS Blackberry Monthly" text="3. Postpaid BIS Blackberry Monthly" language="english" />
+  <page id="postblackberrybisstatus" description="Post_P BIS Blackberry status" text="4. Postpaid BIS Blackberry Status" language="english" />
+  
+  <page id="postblackberrysocialdaily" description="Post_P Social Blackberry daily" text="1. Postpaid Social BB Daily" language="english" />
+  <page id="postblackberrysocialweekly" description="Post_P Social Blackberry weekly" text="2. Postpaid Social BB Weekly" language="english" />
+  <page id="postblackberrysocialmonthly" description="Post_P Social Blackberry Monthly" text="3. Postpaid Social BB Monthly" language="english" />
+  <page id="postblackberrysocialstatus" description="Post_P Social Blackberry status" text="4. Postpaid Social BB Status" language="english" />
+  
+  <page id="postblackberrymessagedaily" description="Post_P Messaging Blackberry daily" text="1. Postpaid Messaging BB Daily" language="english" />
+  <page id="postblackberrymessageweekly" description="Post_P Messaging Blackberry weekly" text="2. Postpaid Messaging BB Weekly" language="english" />
+  <page id="postblackberrymessagemonthly" description="Post_P Messaging Blackberry Monthly" text="3. Postpaid Messaging BB Monthly" language="english" />
+  <page id="postblackberrymessagestatus" description="Post_P Messaging Blackberry status" text="4. Postpaid Messaging BB Status" language="english" />
+  
+ <page id="prepblackberrybesdailypricing" description="Prep BES Blackberry Confirmation" text="1. To Confirm, this will deduct N300 from your account." language="english" /> 
+ <page id="prepblackberrybesweeklypricing" description="Prep BES Blackberry Confirmation" text="1. To Confirm, this will deduct N1500 from your account." language="english" />
+ <page id="prepblackberrybesmonthlypricing" description="Prep BES Blackberry Confirmation" text="1. To Confirm, this will deduct N5750 from your account." language="english" />
+ 
+  <page id="prepblackberrybisdailypricing" description="Prep BIS Blackberry Confirmation" text="1. To Confirm, this will deduct N200 from your account." language="english" /> 
+ <page id="prepblackberrybisweeklypricing" description="Prep BIS Blackberry Confirmation" text="1. To Confirm, this will deduct N1000 from your account." language="english" />
+ <page id="prepblackberrybismonthlypricing" description="Prep BIS Blackberry Confirmation" text="1. To Confirm, this will deduct N3000 from your account." language="english" />
+ 
+   <page id="prepblackberrysocialdailypricing" description="Prep SOCIAL Blackberry Confirmation" text="1. To Confirm, this will deduct N75 from your account." language="english" /> 
+ <page id="prepblackberrysocialweeklypricing" description="Prep SOCIAL Blackberry Confirmation" text="1. To Confirm, this will deduct N435 from your account." language="english" />
+ <page id="prepblackberrysocialmonthlypricing" description="Prep SOCIAL Blackberry Confirmation" text="1. To Confirm, this will deduct N1450 from your account." language="english" />
+  <page id="prepblackberrysocialstatusfinal" description="Prep SOCIAL Status" text="1. To Confirm, this will deduct N1450 from your account." language="english" />
+ 
+    <page id="prepblackberrymessagedailypricing" description="Prep MESSAGING Blackberry Confirmation" text="1. To Confirm, this will deduct N75 from your account." language="english" /> 
+ <page id="prepblackberrymessageweeklypricing" description="Prep MESSAGING Blackberry Confirmation" text="1. To Confirm, this will deduct N435 from your account." language="english" />
+ <page id="prepblackberrymessagemonthlypricing" description="Prep MESSAGING Blackberry Confirmation" text="1. To Confirm, this will deduct N1450 from your account." language="english" />
+ 
+ 
+  
+  <ref id="CallBBURL" description="Call a URL for provisioning" param="" />
+</ussd>

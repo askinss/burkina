@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.vasconsulting.www.domain">
+	<class name="ErrorDetail" table="errorlog">
+		<id name="id" column="id" type="string">
+			<generator class="assigned" />
+		</id>
+		
+		<property name="msisdn" type="string" length="20" />
+		<property name="errorType" column="errortype" type="string" length="50" />
+		<property name="date_created" type="calendar" />
+		<property name="errorCode" column ="errorcode" type="int" length="20" />
+		<property name="description" type="string" length="255" />
+
+	</class>
+</hibernate-mapping>

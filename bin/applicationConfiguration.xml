@@ -1,0 +1,575 @@
+<billingplans>		
+	
+	<billingplan shortcode="*307*10#" description="This is used to get status" successmessage="Dear subscriber, your request will be concluded shortly" validity="1" davalue="" cost="" externaldata1="">
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid Prosumer B,BlackBerry" description="Servicename,serviceName"  />	
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Enterprise Plus,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Enterprise B,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid BIS Social,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid BIS Lite,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid Complete,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid Social Plan,BlackBerry" description="Servicename,serviceName"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="status" description="This is used to get status" successmessage="Dear subscriber, your request will be concluded shortly" validity="1" davalue="" cost="" externaldata1="">
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid Prosumer B,BlackBerry" description="Servicename,serviceName"  />	
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Enterprise Plus B,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Enterprise B,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid BIS Social,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid BIS Lite,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid Complete,BlackBerry" description="Servicename,serviceName"  />
+		<billingcommand command="GetSubscriberBBStatusFromDBCommandImpl" receiver="" param="Prepaid Social Plan,BlackBerry" description="Servicename,serviceName"  />
+	</billingplan>	
+	
+	
+	
+	
+	<billingplan shortcode="startautorenew" description="This is used to get status" successmessage="Dear subscriber, you have successfully activated your Airtel Blackberry service." validity="1" davalue="" cost="" externaldata1="">
+		<billingcommand command="SetPrepSubscriberRenewalModeCommandImpl" receiver="" param="1" description="This is used to activate the auto renewal status for blackberry" />
+	</billingplan>
+	
+	<billingplan shortcode="stop" description="This is used to stop auto renewal" successmessage="Dear subscriber, you have successfully disabled auto renewal for your Blackberry service." validity="1" davalue="" cost="1" externaldata1="">
+		<billingcommand command="SetPrepSubscriberRenewalModeCommandImpl" receiver="" param="0" description="This is used to disable the auto renewal status for blackberry" />
+	</billingplan>
+	
+	<billingplan shortcode="*307*11#" description="This is used to stop auto renewal" successmessage="Dear subscriber, you have successfully disabled auto renewal for your Blackberry service." validity="1" davalue="" cost="1" externaldata1="">
+		<billingcommand command="SetPrepSubscriberRenewalModeCommandImpl" receiver="" param="0" description="This is used to disable the auto renewal status for blackberry" />
+	</billingplan>
+	
+	<billingplan shortcode="ayo" description="This is used to get help" successmessage="Dear subscriber, your request is being processed and you will be notified shortly." validity="1" davalue="" cost="1" externaldata1="">
+	</billingplan>
+
+	<billingplan shortcode="help" description="This is used to get help" successmessage="Dear subscriber, your request is being processed and you will be notified shortly." validity="1" davalue="" cost="1" externaldata1="">
+		<billingcommand command="PrepSubscriberHelpCommandImpl" receiver="" param="help" description="This is used to get general help info" />
+	</billingplan>
+	
+	<billingplan shortcode="*307#" description="This is used to get help" successmessage="Dear subscriber, your request is being processed and you will be notified shortly." validity="1" davalue="" cost="1" externaldata1="">
+		<billingcommand command="PrepSubscriberHelpCommandImpl" receiver="" param="help" description="This is used to get general help info" />
+	</billingplan>
+	
+	<billingplan shortcode="Helpbes" description="This is used to get bes help" successmessage="Dear subscriber, your request is being processed and you will be notified shortly." validity="1" davalue="" cost="1" externaldata1="">
+		<billingcommand command="PrepSubscriberHelpCommandImpl" receiver="" param="helpbes" description="This is used to get general help info" />
+	</billingplan>
+	
+	<billingplan shortcode="Helpbis" description="This is used to get bis help" successmessage="Dear subscriber, your request is being processed and you will be notified shortly." validity="1" davalue="" cost="1" externaldata1="">
+		<billingcommand command="PrepSubscriberHelpCommandImpl" receiver="" param="helpbis" description="This is used to get general help info" />
+	</billingplan>
+	
+	<billingplan shortcode="Helpsocial" description="This is used to get social help" successmessage="Dear subscriber, your request is being processed and you will be notified shortly." validity="1" davalue="" cost="1" externaldata1="">
+		<billingcommand command="PrepSubscriberHelpCommandImpl" receiver="" param="helpsocial" description="This is used to get general help info" />
+	</billingplan>
+		
+	
+	<billingplan shortcode="Helpcomplete" description="This is used to get message help" successmessage="Dear subscriber, your request is being processed and you will be notified shortly." validity="1" davalue="" cost="1" externaldata1="">
+		<billingcommand command="PrepSubscriberHelpCommandImpl" receiver="" param="helpcomplete" description="This is used to get general help info" />
+	</billingplan>
+		
+	<billingplan shortcode="rimtest" description="This is used to deactivate BB service" successmessage="" validity="7" davalue="" cost="1" externaldata1="">
+		<billingcommand command="GetSubscriberDataFromDBCommandImpl" receiver="" param="" description="This is used to deactivate BB service" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="" description="This is used to deactivate BB service" />
+	</billingplan>
+	
+	<billingplan shortcode="deactivate" description="This is used to deactivate BB service" successmessage="" validity="7" davalue="" cost="1" externaldata1="">
+		<billingcommand command="DeactivateBlackberryServiceCommandImpl" receiver="" param="" description="This is used to deactivate BB service" />
+	</billingplan>
+	
+	<billingplan shortcode="*440*1000#" description="This is used to deactivate BB service" successmessage="Dear subscriber, you have been successfully deactivated" validity="7" davalue="" cost="1" externaldata1="">
+		<billingcommand command="DeactivateBlackberryServiceCommandImpl" receiver="" param="" description="This is used to deactivate BB service" />
+	</billingplan>
+	
+	
+	<billingplan shortcode="renewalpostpaidbb" description="This is BB postpaid renewal" successmessage="Your Airtel Postpaid Blackberry service subscription has been updated. Please check your status or call 111 for assistance" validity="" davalue="" cost="1000" externaldata1="">
+		<billingcommand command="RenewSubscriberDBRecordCommandImpl" receiver="" param="Prepaid Prosumer B:Internet Browsing:20,Enterprise B:Internet Browsing:20,Prepaid BIS Social:20,Prepaid BIS Lite:20,10:10240,5:10000" description="Update SubscriberDetail in DB"  />		
+	</billingplan>
+	
+	<billingplan shortcode="autorenewalpostpaidbb" description="This is BB postpaid ist day of month renewal" successmessage="Your Airtel Postpaid Blackberry Service has been successfully renewed" validity="" davalue="" cost="1000" externaldata1="">
+		<billingcommand command="RenewSubscriberOnBBPostCommandImpl" receiver="" param="Prepaid Prosumer B:Internet Browsing:20,Enterprise Plus:Internet Browsing:20,Prepaid BIS Social:20,Prepaid BIS Lite:20,10:10240,5:10000" description="Update SubscriberDetail in DB"  />		
+	</billingplan>
+	
+	
+	<!--This is the renewal definition command for all Day services-->
+	<billingplan shortcode="renewalbisdayprepaidbb" description="This is BB Prepaid midnight daily renewal" successmessage="Dear subscriber, your Airtel Prepaid Blackberry Day Service has been successfully renewed." validity="1" davalue="" cost="1000" externaldata1="">
+		<billingcommand command="PrepaidBBDayRenewalCommandImpl" receiver="" param="" description="Renew subscriber at mid night"  />		
+	</billingplan>
+	
+	
+	<!--This is the renewal definition command for all Blackberry service except Bisday-->
+	<billingplan shortcode="renewalprepaidbb" description="This is BB Prepaid midnight daily renewal" successmessage="Dear subscriber, your Airtel Prepaid Blackberry Service has been successfully renewed" validity="1" davalue="" cost="1000" externaldata1="">
+		<billingcommand command="HourlyPrepaidBBRenewalCommandImpl" receiver="" param="" description="Renew subscriber at mid night"  />		
+	</billingplan>
+	
+	
+	
+	<billingplan shortcode="synchronizepostpaidbb" description="This is BB postpaid renewal" successmessage="" validity="" davalue="" cost="1000" externaldata1="">
+		<billingcommand command="SynchronizeBlackberryServiceCommandImpl" receiver="" param="" description="Servicename,validity"  />	
+	</billingplan>
+	
+	<!--<billingplan shortcode="besmonth" description="Prepaid BES Monthly Plan" successmessage="Your Airtel Blackberry Enterprise monthly subscription was successful" validity="30" davalue="" cost="95000" externaldata1="EnterprisePlus_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="95000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Enterprise Plus B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="95000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseCommandImpl" receiver="" param="Dear subscriber, your Airtel BES Blackberry service is Live. Please remove and replace your battery to get the service running." description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, your current Airtel Blackberry service expires on %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>	
+		
+			
+	<billingplan shortcode="*307*2*1*4#" description="Prepaid BES Monthly Plan" successmessage="Your Airtel Blackberry Enterprise monthly subscription was successful" validity="30" davalue="" cost="95000" externaldata1="EnterprisePlus_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="95000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Enterprise Plus B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="95000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseCommandImpl" receiver="" param="Dear subscriber, your Airtel BES Blackberry service is Live. Please remove and replace your battery to get the service running." description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, your current Airtel Blackberry service expires on %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>	-->
+	
+	
+	<billingplan shortcode="getema" description="Prepaid BIS BI Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="60" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New60">
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="checkprepstat" description="Prepaid BIS BI Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="60" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New60">
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+	</billingplan>
+	
+	
+	<billingplan shortcode="setapn" description="Prepaid BIS BI Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="60" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New60">
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="createbb" description="Prepaid BIS BI Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="60" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New60">
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+	</billingplan>
+	
+	
+	<billingplan shortcode="checkbal" description="Prepaid BIS BI Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="60" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New60">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="0" description="Check Subscriber Credit Limit" />	
+	</billingplan>
+	
+	<billingplan shortcode="deduct" description="Prepaid BIS BI Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="60" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New60">
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="0" description="Amount to deduct for service"  />
+	</billingplan>
+	
+	<billingplan shortcode="bb60" description="Prepaid BIS BI Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="60" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New60">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="120000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="120000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to BIS BI MONTHLY Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="ayocorporatebes" description="Prepaid BIS BI MONTHLY Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="365" davalue="" cost="0" externaldata1="EnterpisePlusB_New365">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="0" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="0" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to BIS BI MONTHLY Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="*307*2*1*14#" description="Prepaid BIS BI MONTHLY Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="60" davalue="" cost="120000" externaldata1="PrepaidProsumerB_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="120000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="120000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to BIS BI MONTHLY Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="bb30" description="Prepaid BIS Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="60000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="60000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid BIS Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="*307*2*1*1#" description="Prepaid BIS Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="1" davalue="" cost="2250" externaldata1="PrepaidProsumerB_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="2250" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="2250" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid BIS Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="bb7" description="Prepaid BIS Weekly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Weekly service is active. Please remove and replace your battery to get the service running." validity="7" davalue="" cost="20000" externaldata1="PrepaidProsumerB_New7">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="20000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="20000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid BIS Weekly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="*307*2*1*2#" description="Prepaid BIS Weekly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute service is active. Please remove and replace your battery to get the service running." validity="7" davalue="" cost="20000" externaldata1="PrepaidProsumerB_New7">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="20000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="20000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid BIS Weekly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="bb1" description="Prepaid BIS Daily Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Daily service is active. Please remove and replace your battery to get the service running." validity="1" davalue="" cost="2250" externaldata1="PrepaidProsumerB_New1">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="2250" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="2250" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid BIS Daily Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="*307*2*1*3#" description="Prepaid BIS Daily Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Daily service is active. Please remove and replace your battery to get the service running." validity="1" davalue="" cost="2250" externaldata1="PrepaidProsumerB_New1">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="2250" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="2250" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid BIS Daily Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+
+	<billingplan shortcode="*307*2*1*1#" description="Prepaid BIS Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Absolute Monthly service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="60000" externaldata1="PrepaidProsumerB_New1">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="60000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="2250" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid BIS Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+		
+	<billingplan shortcode="bbc1" description="Prepaid COMPLETE Daily Plan" successmessage="Dear subscriber, your Airtel Complete Blackberry Daily service is active. Please remove and replace your battery to get the service running." validity="1" davalue="" cost="2150" externaldata1="PrepaidComplete_New1">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="2150" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="2150" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid COMPLETE Daily Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*5#" description="Prepaid COMPLETE Daily Plan" successmessage="Dear subscriber, your Airtel Complete Daily Blackberry service is active. Please remove and replace your battery to get the service running." validity="1" davalue="" cost="2150" externaldata1="PrepaidComplete_New1">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="2150" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="2150" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid COMPLETE Daily Plan. Valid until  %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	
+	
+	<billingplan shortcode="bbc7" description="Prepaid COMPLETE Weekly Plan" successmessage="Dear subscriber, your Airtel Blackberry Complete Weekly service is active. Please remove and replace your battery to get the service running." validity="7" davalue="" cost="15000" externaldata1="PrepaidComplete_New7">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="15000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="15000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid COMPLETE Weekly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*6#" description="Prepaid COMPLETE Weekly Plan" successmessage="Dear subscriber, your Airtel Blackberry Complete Weekly service is active. Please remove and replace your battery to get the service running." validity="7" davalue="" cost="15000" externaldata1="PrepaidComplete_New7">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="15000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="15000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid COMPLETE Weekly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	
+	<billingplan shortcode="bbc" description="Prepaid COMPLETE Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Complete Monthly service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="45000" externaldata1="PrepaidComplete_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="45000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="45000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid COMPLETE Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>	
+	
+	
+	<billingplan shortcode="*307*2*1*7#" description="Prepaid COMPLETE Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Complete Monthly service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="45000" externaldata1="PrepaidComplete_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="45000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="45000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid COMPLETE Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	
+	<billingplan shortcode="bbs1" description="Prepaid SOCIAL Daily Plan" successmessage="Dear subscriber, your Airtel Blackberry Social Daily service is active. Please remove and replace your battery to get the service running." validity="1" davalue="" cost="1600" externaldata1="PrepaidSocialPlan_New1">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="1600" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="1600" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid SOCIAL Daily Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>	
+	
+	<billingplan shortcode="*307*2*1*8#" description="Prepaid SOCIAL Daily Plan" successmessage="Dear subscriber, your Airtel Blackberry Social Daily service is active. Please remove and replace your battery to get the service running." validity="1" davalue="" cost="1600" externaldata1="PrepaidSocialPlan_New1">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="1600" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="1600" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid SOCIAL Daily Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="bbs7" description="Prepaid SOCIAL Weekly Plan" successmessage="Dear subscriber, your Airtel Social Blackberry Weekly service is active. Please remove and replace your battery to get the service running." validity="7" davalue="" cost="10000" externaldata1="PrepaidSocialPlan_New7">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="10000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="10000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid SOCIAL Weekly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*9#" description="Prepaid SOCIAL Weekly Plan" successmessage="Dear subscriber, your Airtel Social Blackberry Weekly service is active. Please remove and replace your battery to get the service running." validity="7" davalue="" cost="10000" externaldata1="PrepaidSocialPlan_New7">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="10000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="10000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid SOCIAL Weekly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	
+	<billingplan shortcode="bbs" description="Prepaid SOCIAL Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Social Monthly service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="35000" externaldata1="PrepaidSocialPlan_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="35000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="35000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid SOCIAL Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*10#" description="Prepaid SOCIAL Monthly Plan" successmessage="Dear subscriber, your Airtel Blackberry Social service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="35000" externaldata1="PrepaidSocialPlan_New30">
+		<billingcommand command="CheckPrepSubscriberCreditLimitCommandImpl" receiver="" param="35000" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="GetSubscriberIMSIEMACommandImpl" receiver="" param="" description="Load Subscriber IMSI"  />
+		<billingcommand command="CheckPrepSubscriberStatusCommandImpl" receiver="" param="2" description="Check Subscriber DB Status" />
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="2" description="Check Subscriber RIM Status" />
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />		
+		<billingcommand command="DeductPrepServiceFeeCommandImpl" receiver="" param="35000" description="Amount to deduct for service"  />
+		<billingcommand command="SychronizePrepSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Prepaid SOCIAL Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY. To disable auto renewal, please send stop to 4428" description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	
+	<billingplan shortcode="postbismonth" description="Postpaid BIS Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Absolute service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="60000" externaldata1="PrepaidProsumer_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="5:SEP:60000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Postpaid BIS Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*11#" description="Postpaid BIS Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Absolute service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="60000" externaldata1="PrepaidProsumer_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="5:SEP:60000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to Postpaid BIS Monthly Plan. Valid until %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*11#" description="Postpaid BIS Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Absolute service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="60000" externaldata1="PrepaidProsumer_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Primary Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="5:SEP:60000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to  on %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="postcompletemonth" description="Postpaid Complete Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Complete service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="45000" externaldata1="PrepaidComplete_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="6:SEP:45000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to  on %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*12#" description="Postpaid Complete Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Complete service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="45000" externaldata1="PrepaidComplete_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="6:SEP:45000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to  on %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="postsocialmonth" description="Postpaid Social Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Social service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="35000" externaldata1="PrepaidSocialPlan_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="7:SEP:35000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to  on %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*13#" description="Postpaid Social Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Social service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="35000" externaldata1="PrepaidSocialPlan_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="7:SEP:35000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to  on %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+
+				
+	
+	<billingplan shortcode="postcompletemonth" description="Postpaid Complete Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Complete service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="45000" externaldata1="PrepaidComplete_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="6:SEP:45000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to  on %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="*307*2*1*12#" description="Postpaid Complete Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Complete service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="45000" externaldata1="PrepaidComplete_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Complete" description="Primary Service, Addon Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="6:SEP:45000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to  on %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="postsocialmonth" description="Postpaid Social Monthly Plan" successmessage="Dear subscriber, your Airtel Postpaid Blackberry Social service is active. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="35000" externaldata1="PrepaidSocialPlan_Post_New30">
+		<billingcommand command="CheckPostSubscriberStatusCommandImpl" receiver="" param="" description="Check Subscriber Credit Limit" />
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="6450178:SEP:1024" description="Check Subscriber Credit Limit" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Social Plan" description="Primary Service, Addon Service"  />
+		<billingcommand command="SetupHomiscoPostCommandImpl" receiver="" param="7:SEP:35000:SEP:BBBroker" description="Load Subscriber IMSI"  />
+		<billingcommand command="SychronizeSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseDateCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to  on %1$ta %1$te %1$tb,%1$tY." description="Save subscriber to database and exit"  />
+	</billingplan>
+	
+	<billingplan shortcode="ttspromo" description="Talk Text and Surf promo for Airtel Madagascar" successmessage="Dear subscriber, you have received the promo plan. Please remove and replace your battery to get the service running." validity="30" davalue="" cost="35000" externaldata1="PrepaidSocialPlan_Post_New30">
+		<billingcommand command="CheckMSISDNValidForPromoCommandImpl" receiver="" param="" description="Check if Subscriber's MSISDN is valid for promo" />
+		<billingcommand command="CheckIMEIValidForPromoCommandImpl" receiver="" param="" description="Check if Subscriber's IMEI is valid for promo" />	
+		<billingcommand command="GetSubscriberIMSIEMAPostCommandImpl" receiver="" param="" description="Get Subscriber IMSI" />	
+		<billingcommand command="CheckBlackberryServiceCommandImpl" receiver="" param="" description="Check if Subscriber has existing BB service" />	
+		<billingcommand command="SetSubscriberAPNEMACommandImpl" receiver="" param="" description="Set Subscriber APN"  />
+		<billingcommand command="CreateBlackberryServiceCommandImpl" receiver="" param="Prepaid Prosumer B" description="Create Blackberry Service on RIM"  />
+		<billingcommand command="SetPrepDedicatedAccountCommandImpl" receiver="" param="5:500:7" description="Set Dedicated Account for Voice with DAnumeber:Amount:Validity"  />
+		<billingcommand command="SetPrepDedicatedAccountCommandImpl" receiver="" param="2:500:7" description="Set Dedicated Account for SMS with DAnumeber:Amount:Validity"  />
+    		<billingcommand command="SetPrepDedicatedAccountCommandImpl" receiver="" param="8:35840000:30" description="DA_ACCT:VALUE_To_Add:Days_To_Extend_Expiry Set Dedicated Account for Data"  />
+    		<billingcommand command="UpdateIMEIWhitelistStatusCommandImpl" receiver="" param="" description="Update subscriber IMEI whitelist status"  />
+    		<billingcommand command="UpdateMSISDNWhitelistStatusCommandImpl" receiver="" param="" description="Update subscriber MSISDN whitelist status"  />
+		<billingcommand command="SychronizeTTSPromoSubscriberDataToDBCommandImpl" receiver="" param="2" description="Save subscriber to database and exit"  />
+		<billingcommand command="SendPrepSubscriberAutoResponseCommandImpl" receiver="" param="Dear subscriber, you have successfully subscribed to TTS Promo" description="Save subscriber to database and exit"  />
+	</billingplan>
+
+	
+	<billingplan shortcode="rollback" description="Rollback BB Subscription" successmessage="" validity="" davalue="" cost="" externaldata1="">
+		<billingcommand command="DeactivateBlackberryServiceCommandRollbackImpl" receiver="" param="" description="Deactivate BB service on RIM" />
+		<billingcommand command="EmptyPrepDedicatedAccountCommandRollbackImpl" receiver="" param="5:500:7" description="Empty Subscriber DA Account" />	
+		<billingcommand command="RemoveSubscriberAPNEMACommandRollbackImpl" receiver="" param="2" description="Remove BB.net APN from subscriber profile"  />
+	</billingplan>
+
+				
+</billingplans>

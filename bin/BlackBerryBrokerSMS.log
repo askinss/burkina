@@ -1,0 +1,242 @@
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO http-8081-1 com.vas.util.servlets.SmsHandler - ########Checking for Lock for subscriber null ########
+INFO http-8081-1 com.vas.util.servlets.BookingsManager - BookingsManager lock {null,D8E86E9B0EAFC4094155CAA2D243DA13 }
+INFO http-8081-1 com.vas.util.servlets.BookingsManager - http-8081-1 is Reserving D8E86E9B0EAFC4094155CAA2D243DA13 for [null]
+INFO http-8081-1 com.vas.util.servlets.BookingsManager - release lock on method
+INFO http-8081-1 com.vas.util.servlets.BookingsManager - BookingsManager lock
+INFO http-8081-1 com.vas.util.servlets.SmsHandler - SMS Servlet | Received new SMS from Kannel to process, supplied details are MSISDN [null] and SMS message [null]
+INFO http-8081-1 com.vas.util.servlets.SmsHandler - ########Releasing Lock for subscriber null ########
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO main org.hibernate.cfg.Environment - Hibernate 3.2.0
+INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+INFO main org.hibernate.cfg.Environment - Bytecode provider name : cglib
+INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+INFO main org.hibernate.cfg.Configuration - configuring from resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Configuration resource: /hibernate.cfg.xml
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/SubscriberDetail.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.SubscriberDetail -> subscriber
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/LogObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.LogObject -> logobject
+INFO main org.hibernate.cfg.Configuration - Reading mappings from resource: com/vas/domain/RimDeactivationFailureObject.hbm.xml
+INFO main org.hibernate.cfg.HbmBinder - Mapping class: com.vas.domain.RimDeactivationFailureObject -> failureobject
+INFO main org.hibernate.cfg.Configuration - Configured SessionFactory: null
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoading the kannel connection properties file
+INFO main com.vas.util.servlets.SendSmsToKannelService - class com.vas.util.servlets.SendSmsToKannelServiceLoaded the Kannel properties file
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - New request to process with the following details: msisdn2348087616915, message sent: *600*10
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - Inside of the help menu option
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - New request to process with the following details: msisdn2348087616915, message sent: *600*10
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - New request to process with the following details: msisdn2348087616915, message sent: *600*10
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - The value of helpMenu is =*600*10#
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - New request to process with the following details: msisdn2348087616915, message sent: *600*10
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - The value of helpMenu is =*600*10#
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - New request to process with the following details: msisdn2348087616915, message : *600*10#
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - The value of helpMenu is =*600*10#
+INFO http-8081-1 com.vasconsulting.www.services.SMEProvisioningServlet - Inside of the help menu option

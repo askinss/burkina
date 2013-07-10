@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.vasconsulting.www.domain">
+	<class name="BbTestPromoFirstYes" table="bbtestpromofirstyes">
+		<id name="id" column="id" type="string">
+			<generator class="assigned" />
+		</id>
+		<property name="msisdn" type="string" length="16" unique="true" />
+		<property name="imsi" type="string" length="16" unique="true" />
+		<property name="serviceplan" type="string" length="16" />
+		<property name="rimstatus" type="string" length="16"/>
+		<property name="date_created" type="calendar" />
+		<property name="date_updated" type="calendar" />
+		<property name="due_date" type="calendar" />
+		<property name="status" type="int" />
+	</class>
+</hibernate-mapping>

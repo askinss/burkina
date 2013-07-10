@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.vasconsulting.www.domain">
+	<class name="IMEIWhitelist" table="imeiwhitelist">
+		<id name="id" column="id" type="string">
+			<generator class="assigned" />
+		</id>
+		<property name="imei" type="string" length="16" unique="true"/>
+		<property name="date_created" type="calendar" />
+		<property name="date_updated" type="calendar" />
+		<property name="status" type="string" length="50" />
+		<property name="used_by_msisdn" type="string" length="50" />
+
+	</class>
+</hibernate-mapping>
