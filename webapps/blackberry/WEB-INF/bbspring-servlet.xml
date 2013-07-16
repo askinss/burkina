@@ -90,6 +90,7 @@
           <value>com/vasconsulting/www/domain/MSISDNWhitelist.hbm.xml</value>
           <value>com/vasconsulting/www/domain/IMEIWhitelist.hbm.xml</value>
           <value>com/vasconsulting/www/domain/Ttspromo.hbm.xml</value>
+          <value>com/vasconsulting/www/domain/CacheMSISDN.hbm.xml</value>
         </list>
 		  </property>
 		  <property name="hibernateProperties">
