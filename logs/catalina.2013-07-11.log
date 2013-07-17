@@ -1,0 +1,784 @@
+Jul 11, 2013 3:52:41 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 3:52:41 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 3:52:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 522 ms
+Jul 11, 2013 3:52:41 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 3:52:41 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 3:52:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 3:52:42 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 3:52:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 3:53:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 3:53:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 3:53:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 3:53:01 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 3:53:02 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 3:53:02 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/18  config=null
+Jul 11, 2013 3:53:02 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 20175 ms
+Jul 11, 2013 4:40:15 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:40:16 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 4:40:16 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:40:16 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:40:16 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:40:16 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:40:16 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@9826ac5]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [1e180f6f-02f3-4e1f-bb24-9986ffdfcb54-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 4:40:16 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 4:40:16 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:40:17 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 4:40:17 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:40:17 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 455 ms
+Jul 11, 2013 4:40:17 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 4:40:17 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 4:40:17 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 4:40:17 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 4:40:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 4:40:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 4:40:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 4:40:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 4:40:37 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:40:37 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 4:40:37 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=1/26  config=null
+Jul 11, 2013 4:40:37 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19756 ms
+Jul 11, 2013 4:44:07 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:44:08 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 4:44:08 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:44:08 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:44:08 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:44:08 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5fec459b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [e7381a60-db2c-401c-930d-3bd3a46c4594-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 4:44:09 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 4:44:09 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:44:09 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 4:44:09 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:44:09 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 486 ms
+Jul 11, 2013 4:44:09 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 4:44:09 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 4:44:09 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 4:44:09 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 4:44:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 4:44:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 4:44:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 4:44:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 4:44:28 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:44:28 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 4:44:28 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/20  config=null
+Jul 11, 2013 4:44:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19360 ms
+Jul 11, 2013 4:48:33 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:48:34 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@3710b205]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [a3498c5f-d2b8-45c4-951c-d1b991caa779-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 4:48:34 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 4:48:34 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:48:34 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 4:48:35 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:48:35 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 496 ms
+Jul 11, 2013 4:48:35 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 4:48:35 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 4:48:35 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 4:48:35 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 4:48:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 4:48:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 4:48:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 4:48:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 4:48:54 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:48:55 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 4:48:55 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/20  config=null
+Jul 11, 2013 4:48:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 20027 ms
+Jul 11, 2013 4:52:54 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:52:55 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:55 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6e1f5438]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [ae915537-7816-4dcb-9d2e-3ffea023e96a-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 4:52:56 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 4:52:56 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:52:56 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 4:52:56 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:52:56 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 471 ms
+Jul 11, 2013 4:52:56 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 4:52:56 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 4:52:56 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 4:52:57 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 4:52:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 4:53:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 4:53:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 4:53:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 4:53:16 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:53:16 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 4:53:16 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/14  config=null
+Jul 11, 2013 4:53:16 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19694 ms
+Jul 11, 2013 4:55:48 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:55:49 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:49 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@4bcc946b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [48687ece-11a9-47fb-ba32-554eee16832a-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 4:55:50 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 4:55:50 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:55:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 4:55:50 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:55:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 446 ms
+Jul 11, 2013 4:55:50 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 4:55:50 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 4:55:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 4:55:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 4:55:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 4:56:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 4:56:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 4:56:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 4:56:10 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:56:10 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 4:56:10 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/14  config=null
+Jul 11, 2013 4:56:10 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19780 ms
+Jul 11, 2013 4:58:28 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:58:29 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@35071f57]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [5ed5a462-e0fe-47d6-8e45-109826dfa3c8-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 4:58:29 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 4:58:29 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:58:37 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 4:58:37 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:58:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 384 ms
+Jul 11, 2013 4:58:38 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 4:58:38 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 4:58:38 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 4:58:38 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 4:58:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 4:58:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 4:58:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 4:58:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 4:58:57 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 4:58:57 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 4:58:57 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/14  config=null
+Jul 11, 2013 4:58:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19395 ms
+Jul 11, 2013 5:02:02 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:02:03 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5ef4b65d]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [783c8d05-b7d2-49ed-a417-d7a411d8b412-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 5:02:03 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 5:02:03 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:02:05 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 5:02:05 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:02:05 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 433 ms
+Jul 11, 2013 5:02:05 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 5:02:05 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 5:02:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 5:02:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 5:02:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 5:02:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 5:02:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 5:02:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 5:02:25 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:02:25 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 5:02:25 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/14  config=null
+Jul 11, 2013 5:02:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19487 ms
+Jul 11, 2013 5:05:31 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:05:32 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@72334bfe]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [2ea4e17b-8e8e-47bd-b82b-bf85fa9290c6-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 5:05:32 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 5:05:32 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:05:32 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 5:05:32 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:05:32 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 492 ms
+Jul 11, 2013 5:05:32 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 5:05:32 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 5:05:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 5:05:33 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 5:05:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 5:05:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 5:05:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 5:05:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 5:05:52 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:05:52 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 5:05:52 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/25  config=null
+Jul 11, 2013 5:05:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19290 ms
+Jul 11, 2013 5:07:47 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:07:48 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@51274873]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [b0683d2c-0310-440a-b8b1-8fcb64b4349a-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 5:07:48 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 5:07:48 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:07:52 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 5:07:52 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:07:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 378 ms
+Jul 11, 2013 5:07:52 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 5:07:52 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 5:07:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 5:07:53 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 5:07:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 5:08:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 5:08:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 5:08:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 5:08:12 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:08:12 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 5:08:12 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/14  config=null
+Jul 11, 2013 5:08:12 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19846 ms
+Jul 11, 2013 5:12:40 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:12:41 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6422b8ff]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [194a65f1-aee0-43a4-9a6c-a2ece97b3c03-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 5:12:41 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 5:12:41 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:12:42 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 5:12:42 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:12:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 448 ms
+Jul 11, 2013 5:12:42 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 5:12:42 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 5:12:42 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 5:12:42 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 5:12:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 5:13:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 5:13:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 5:13:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 5:13:02 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:13:02 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 5:13:02 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/19  config=null
+Jul 11, 2013 5:13:02 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19607 ms
+Jul 11, 2013 5:17:23 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:17:24 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5d5e3b92]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [9994cdb1-34b8-4d97-b508-c39457827451-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 5:17:24 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 5:17:24 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:17:24 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 5:17:25 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:17:25 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 483 ms
+Jul 11, 2013 5:17:25 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 5:17:25 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 5:17:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 5:17:25 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 5:17:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 5:17:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 5:17:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 5:17:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 5:17:44 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:17:44 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 5:17:44 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/19  config=null
+Jul 11, 2013 5:17:44 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19501 ms
+Jul 11, 2013 5:38:32 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:38:33 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/blackberry] registered the JBDC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/blackberry] appears to have started a thread named [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/blackberry] created a ThreadLocal with key of type [null] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@e65b778]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [166a3ad1-061a-4f23-b959-e9a577a13e2f-0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Jul 11, 2013 5:38:33 PM com.microsoft.sqlserver.jdbc.AuthenticationJNI <clinit>
+WARNING: Failed to load the sqljdbc_auth.dll cause : no sqljdbc_auth in java.library.path
+Jul 11, 2013 5:38:33 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:38:33 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64/server:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/lib/amd64:/home/bjhaid/assets/installations/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 11, 2013 5:38:34 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:38:34 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 478 ms
+Jul 11, 2013 5:38:34 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2013 5:38:34 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 11, 2013 5:38:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 11, 2013 5:38:34 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 11, 2013 5:38:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory blackberry
+Jul 11, 2013 5:38:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 11, 2013 5:38:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 11, 2013 5:38:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 11, 2013 5:38:53 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8037
+Jul 11, 2013 5:38:53 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8029
+Jul 11, 2013 5:38:53 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/15  config=null
+Jul 11, 2013 5:38:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 19724 ms
